@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Squada+One&display=swap" rel="stylesheet">
+    <title>Comparadora</title>
+</head>
+
+<body>
+    <div class="container"> 
+        <form id="form-numeros"> <!-- Formulario com ID -->
+            <section id="inputs">
+                <h1>NúmeroA é maior que NúmeroB?</h1>
+                <h2>A</h2>
+                <input type="number" id="numeroA" placeholder="Campo A" required> <!--Campo A-->
+                <p class="error-message">O número precisa ser inteiro.</p>
+                <h2>B</h2>
+                <input type="number" id="numeroB" placeholder="Campo B" required> <!--Campo B-->
+                <p class="error-message">O número precisa ser inteiro.</p>
+                <br>
+                <button type="submit">Enviar</button>
+                <p class="sucess-mensage" id="mensagem">
+            </section>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

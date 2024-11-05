@@ -1,0 +1,53 @@
+*{ /* formatação basica para trabalhar melhor no css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 90%;
+}
+
+h2, h1{
+    font-family:"Squada One", serif;
+}
+
+.container{
+    padding:3rem ;
+    font-family: "Kanit", serif;
+    background-color: mage;
+}
+
+button{
+    background-color: #660387;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
+    width: 170px;
+}
+
+button:hover{
+    background-color: #3c0050;
+}
+
+.sucess-message{
+    background-color: green;
+    padding: 8px;
+    font-size: 12px;
+    margin: 4px 0 4px ;
+    color: #fff;
+    display: none;
+}
+
+.error-message{
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin: 4px 0 4px ;
+    display: none;
+}
